@@ -22,7 +22,8 @@ def basic_stats_per_dim(data, dim):
     return_dict = {"min": np.min(vals),
                    "max": np.max(vals),
                    "mean": np.mean(vals),
-                   "median": np.median(vals)}
+                   "median": np.median(vals),
+                   "sd":np.std(vals)}
     return return_dict
 
 
